@@ -1,0 +1,91 @@
+/*
+Theme Name:        Flatsome
+Theme URI:         http://flatsome.uxthemes.com/
+Author:            UX-Themes
+Author URI:        http://www.uxthemes.com/
+Description:       Multi-Purpose Responsive WooCommerce Theme
+Version:           3.13.3
+Requires at least: 5.0.0
+Requires PHP:      5.6.20
+Text Domain:       flatsome
+License:           http://themeforest.net/licenses
+License URI:       http://themeforest.net/licenses
+*/
+
+
+/***************
+All custom CSS should be added to Flatsome > Advanced > Custom CSS,
+or in the style.css of a Child Theme.
+***************/
+.guidi {
+    background-color: red !important;
+    font-family: 'iCiel Koni' !important;
+    font-style: normal !important;
+    color: white !important;
+    font-weight: bolder;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    box-shadow: inset -1px 3px 3px rgba(179, 91, 11, 0.5);
+}
+
+.guidi button{
+    margin: 0 auto;
+}
+
+.total label,
+.soluong label,
+.ngay label,
+.name label,
+.phone label,
+.mail label,
+.CVV label{
+    float:left; color:black; font-weight:bold;
+}
+
+.name,
+.phone,
+.mail{ 
+    width: 50%;
+}
+
+.CVV{width: 30%;}
+
+.option,
+input[type="text"],
+input[type="tel"],
+input[type="email"],
+.total input[type="text"],
+.soluong input[type="number"],
+.ngay input[type="date"],
+.name input[type="text"],
+.phone input[type="tel"],
+.mail input[type="email"],
+.CVV input[type="text"]{
+    border-radius: 10px;
+    box-shadow: inset -1px 3px 3px rgba(179, 91, 11, 0.5);
+}
+
+
+
+
+.messenger{
+    width: 100%;
+    height: 130%;
+    background-color: rgba(0,0,0,0.5);
+    position: fixed;
+    z-index: 10;
+    bottom: 0;
+    left: 0;
+    display: none;
+  }
+  
+  .alert {
+    border-radius: 25px;
+    position: absolute;
+    padding: 25px;
+    z-index: 20;
+    top: 50%;
+    left: 30%;
+    background-color: transparent;
+    background-size: cover;
+  }
